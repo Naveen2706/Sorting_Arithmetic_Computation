@@ -29,3 +29,5 @@ operation4=$(($c+$(($a%$b))))
 		arith[$i]=$operation4
 		array[i]=${arith[$i]}
 
+echo $(printf '%s\n' "${array[@]}" | sort -nr )
+
