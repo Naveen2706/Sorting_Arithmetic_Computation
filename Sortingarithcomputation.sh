@@ -6,3 +6,6 @@ read c
 
 operation1=$(($a+$(($b*$c))))
 echo result of a+b*c :$operation1
+
+operation2=$(($c+$(($a*$b))))
+echo result of a*b+c :$operation2
