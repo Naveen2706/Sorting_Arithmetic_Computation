@@ -29,5 +29,8 @@ operation4=$(($c+$(($a%$b))))
 		arith[$i]=$operation4
 		array[i]=${arith[$i]}
 
+echo Decending order :
 echo $(printf '%s\n' "${array[@]}" | sort -nr )
+echo Ascending order :
+echo $(printf '%s\n' "${array[@]}" | sort -n )
 
