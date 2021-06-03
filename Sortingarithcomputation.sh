@@ -9,3 +9,6 @@ echo result of a+b*c :$operation1
 
 operation2=$(($c+$(($a*$b))))
 echo result of a*b+c :$operation2
+
+operation3=$(($c+$(($a/$b))))
+echo result of c+a/b :$operation3
